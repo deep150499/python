@@ -26,3 +26,33 @@ print(type(isTrue))
 
 first_Name = "Nishta"
 print(first_Name)
+
+x, y, z = "Orange", "Banana", "Cherry"
+print(x)
+print(y)
+print(z)
+
+fruits = ["apple", "banana", "cherry"]
+x, y, z = fruits
+print(x)
+print(y)
+print(z)
+
+x = "Python"
+y = "is"
+z = "awesome"
+print(x, y, z)
+
+x = "Python "
+y = "is "
+z = "awesome"
+print(x + y + z)
+
+x = 5
+y = "John"
+# print(x + y)
+# Error as the date types of both the variables are different
+
+x = 5
+y = "John"
+print(x, y)
