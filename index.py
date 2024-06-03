@@ -1,52 +1,52 @@
-print("hello")
-print('Learning python')
+# print("hello")
+# print('Learning python')
 
 
-print('Hello',"How are you?")
+# print('Hello',"How are you?")
 
-print(23)
-print(23+34)
+# print(23)
+# print(23+34)
 
 name = "John"
-print(name)
+# print(name)
 
 age = 24
-print(age)
+# print(age)
 
 price = 56.90
 isTrue = True
 
-print("My name is :", name)
-print("My age is :", age)
+# print("My name is :", name)
+# print("My age is :", age)
 
-print(type(name))
-print(type(age))
-print(type(price))
-print(type(isTrue))
+# print(type(name))
+# print(type(age))
+# print(type(price))
+# print(type(isTrue))
 
 first_Name = "Nishta"
-print(first_Name)
+# print(first_Name)
 
 x, y, z = "Orange", "Banana", "Cherry"
-print(x)
-print(y)
-print(z)
+# print(x)
+# print(y)
+# print(z)
 
 fruits = ["apple", "banana", "cherry"]
 x, y, z = fruits
-print(x)
-print(y)
-print(z)
+# print(x)
+# print(y)
+# print(z)
 
 x = "Python"
 y = "is"
 z = "awesome"
-print(x, y, z)
+# print(x, y, z)
 
 x = "Python "
 y = "is "
 z = "awesome"
-print(x + y + z)
+# print(x + y + z)
 
 x = 5
 y = "John"
@@ -55,35 +55,35 @@ y = "John"
 
 x = 5
 y = "John"
-print(x, y)
+# print(x, y)
 
 def greet(name):
     print('Hello',name)
 
-greet('Learner')
-greet('David')
-greet('How are you?')
+# greet('Learner')
+# greet('David')
+# greet('How are you?')
 
 
-print(not False)
+# print(not False)
 
 a = 60
 b = 34
 
-print(not (a>b))
+# print(not (a>b))
 
-print("Both values are greater than :", (a>10) and (b>10))
+# print("Both values are greater than :", (a>10) and (b>10))
 
-print("Both values are greater than :", (a>10) or (b>60))
+# print("Both values are greater than :", (a>10) or (b>60))
 
-print('hello')
-print('Learning python')
+# print('hello')
+# print('Learning python')
 
 
-print('Hello','How are you?')
+# print('Hello','How are you?')
 
-print(23)
-print(23+34)
+# print(23)
+# print(23+34)
 
 name = 'John'
 print(name)
@@ -103,28 +103,28 @@ isTrue = True
 # print(type(isTrue))
 
 first_Name = 'Nishta'
-print(first_Name)
+# print(first_Name)
 
 x, y, z = 'Orange', 'Banana', 'Cherry'
-print(x)
-print(y)
-print(z)
+# print(x)
+# print(y)
+# print(z)
 
 fruits = ['apple', 'banana', 'cherry']
 x, y, z = fruits
-print(x)
-print(y)
-print(z)
+# print(x)
+# print(y)
+# print(z)
 
 x = 'Python'
 y = 'is'
 z = 'awesome'
-print(x, y, z)
+# print(x, y, z)
 
 x = 'Python '
 y = 'is '
 z = 'awesome'
-print(x + y + z)
+# print(x + y + z)
 
 x = 5
 y = 'John'
@@ -133,40 +133,23 @@ y = 'John'
 
 x = 5
 y = 'John'
-print(x, y)
+# print(x, y)
 
 def greet(name):
     print('Hello',name)
 
-greet('Learner')
-greet('David')
-greet('How are you?')
+# greet('Learner')
+# greet('David')
+# greet('How are you?')
 
 
-print(not False)
+# print(not False)
 
 a = 60
 b = 34
 
-print(not (a>b))
+# print(not (a>b))
 
-print("Both values are greater than :", (a>10) and (b>10))
+# print("Both values are greater than :", (a>10) and (b>10))
 
 print("Both values are greater than :", (a>10) or (b>60))
-
-# Name = input('Enter your name : ')
-# print('Welcome',Name)
-
-# name = (input('Enter your name:'))
-# print(type(name), 'Welcome', name)
-
-# age = int(input('Enter your age:'))
-# print(type(age) , 'Your age is',age)
-
-# marks = float(input('Enter your marks'))
-# print(type(marks), 'Your marks are', marks)
-
-num1 = int(input('Enter number 1:'))
-num2 = int(input('Enter number 2:'))
-
-print(num1 + num2)
