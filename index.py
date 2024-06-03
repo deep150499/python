@@ -153,3 +153,20 @@ print(not (a>b))
 print("Both values are greater than :", (a>10) and (b>10))
 
 print("Both values are greater than :", (a>10) or (b>60))
+
+# Name = input('Enter your name : ')
+# print('Welcome',Name)
+
+# name = (input('Enter your name:'))
+# print(type(name), 'Welcome', name)
+
+# age = int(input('Enter your age:'))
+# print(type(age) , 'Your age is',age)
+
+# marks = float(input('Enter your marks'))
+# print(type(marks), 'Your marks are', marks)
+
+num1 = int(input('Enter number 1:'))
+num2 = int(input('Enter number 2:'))
+
+print(num1 + num2)
