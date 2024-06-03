@@ -1,13 +1,13 @@
-print("hello")
+print('hello')
 print('Learning python')
 
 
-print('Hello',"How are you?")
+print('Hello','How are you?')
 
 print(23)
 print(23+34)
 
-name = "John"
+name = 'John'
 print(name)
 
 age = 24
@@ -16,6 +16,7 @@ print(age)
 price = 56.90
 isTrue = True
 
+<<<<<<< HEAD
 print("My name is :", name)
 print("My age is :", age)
 
@@ -28,16 +29,35 @@ first_Name = "Nishta"
 print(first_Name)
 
 x, y, z = "Orange", "Banana", "Cherry"
+=======
+# print("My name is :", name)
+# print("My age is :", age)
+
+# print(type(name))
+# print(type(age))
+# print(type(price))
+# print(type(isTrue))
+
+first_Name = 'Nishta'
+print(first_Name)
+
+x, y, z = 'Orange', 'Banana', 'Cherry'
+>>>>>>> 01f2c11 (Basic operations)
 print(x)
 print(y)
 print(z)
 
+<<<<<<< HEAD
 fruits = ["apple", "banana", "cherry"]
+=======
+fruits = ['apple', 'banana', 'cherry']
+>>>>>>> 01f2c11 (Basic operations)
 x, y, z = fruits
 print(x)
 print(y)
 print(z)
 
+<<<<<<< HEAD
 x = "Python"
 y = "is"
 z = "awesome"
@@ -50,11 +70,29 @@ print(x + y + z)
 
 x = 5
 y = "John"
+=======
+x = 'Python'
+y = 'is'
+z = 'awesome'
+print(x, y, z)
+
+x = 'Python '
+y = 'is '
+z = 'awesome'
+print(x + y + z)
+
+x = 5
+y = 'John'
+>>>>>>> 01f2c11 (Basic operations)
 # print(x + y)
 # Error as the date types of both the variables are different
 
 x = 5
+<<<<<<< HEAD
 y = "John"
+=======
+y = 'John'
+>>>>>>> 01f2c11 (Basic operations)
 print(x, y)
 
 def greet(name):
@@ -74,4 +112,8 @@ print(not (a>b))
 
 print("Both values are greater than :", (a>10) and (b>10))
 
+<<<<<<< HEAD
 print("Both values are greater than :", (a>10) or (b>60))
+=======
+print("Both values are greater than :", (a>10) or (b>60))
+>>>>>>> 01f2c11 (Basic operations)
