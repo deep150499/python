@@ -342,3 +342,12 @@ num1 = int(input('Enter number 1:'))
 num2 = int(input('Enter number 2:'))
 
 print(num1 + num2)
+
+str1 = 'Name'
+len1 = len(str1)
+
+str2 = 'Age'
+len2 = len(str2)
+
+print(len1)
+print(len2)
