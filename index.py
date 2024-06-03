@@ -333,11 +333,11 @@ b = 34
 
 # print("Both values are greater than :", (a>10) and (b>10))
 
-<<<<<<< HEAD
+
 print("Both values are greater than :", (a>10) or (b>60))
-=======
+
 # print("Both values are greater than :", (a>10) or (b>60))
->>>>>>> bd4e9d1 (dt)
+
 
 # Name = input('Enter your name : ')
 # print('Welcome',Name)
