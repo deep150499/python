@@ -56,3 +56,22 @@ y = "John"
 x = 5
 y = "John"
 print(x, y)
+
+def greet(name):
+    print('Hello',name)
+
+greet('Learner')
+greet('David')
+greet('How are you?')
+
+
+print(not False)
+
+a = 60
+b = 34
+
+print(not (a>b))
+
+print("Both values are greater than :", (a>10) and (b>10))
+
+print("Both values are greater than :", (a>10) or (b>60))
