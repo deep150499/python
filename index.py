@@ -355,3 +355,25 @@ num1 = int(input('Enter number 1:'))
 num2 = int(input('Enter number 2:'))
 
 print(num1 + num2)
+
+str = "Hey what's up?"
+print(str[1:4])
+print(str[4:])
+print(str[:4])
+print(str[4:len(str)])
+
+str2 = 'apple'
+print(str2[-4:-1])
+
+print(str2.endswith('le'))
+print(str2.capitalize())
+print(str2.replace('le', 'el'))
+print(str2)
+print(str2.find('p'))
+print(str2.count('p'))
+
+fullName = input("Enter name of a person")
+print(len(fullName))
+
+str3 = '$erfef$ew$fds$'
+print(str3.count('$'))
